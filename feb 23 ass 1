@@ -1,0 +1,23 @@
+l=[]
+n=int(input('enter n'))
+for i in range(0,n) :
+      v=int(input())
+      l.append(v)
+min=l[0]
+max=l[0]
+for i in range(1,n) :
+    if l[i]<min :
+        min=l[i]
+    if l[i]>max :
+        max=l[i]
+print('min number=',min)
+print('max number=',max)
+output:
+27
+57
+89
+54
+22
+45
+min number= 22
+max number= 89
